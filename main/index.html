@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spot the Difference Game</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1 id="gameTitle">Spot the Difference - Animals</h1>
+    <div class="images-container">
+      <div class="image" id="image1-container">
+        <img id="image1" src="" alt="Image 1">
+      </div>
+      <div class="image" id="image2-container">
+        <img id="image2" src="" alt="Image 2">
+      </div>
+    </div>
+    <div id="score-container">
+      <p>Score: <span id="score">0</span></p>
+      <p id="timer">Time Left: <span id="time">30</span>s</p>
+    </div>
+    <div id="success-message" class="hidden">
+      <h2>Congratulations! You found all the differences!</h2>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
